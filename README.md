@@ -1,14 +1,9 @@
-# Turborepo starter
+# next-ship
 
-This is an official starter Turborepo.
+next-ship is a starter template for those who want to get right to coding and shipping with the latest NextJS and Turborepo stack.
 
-## Using this example
-
-Run the following command:
-
-```sh
-npx create-turbo@latest
-```
+> [!WARNING]
+> `next-ship` is still in very early development, not ready for use yet.
 
 ## What's inside?
 
@@ -47,7 +42,7 @@ To develop all apps and packages, run the following command:
 
 ```
 cd my-turborepo
-pnpm dev
+bun dev
 ```
 
 ### Remote Caching
