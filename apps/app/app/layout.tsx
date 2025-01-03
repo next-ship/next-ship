@@ -1,6 +1,6 @@
+import "./globals.css";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "@repo/ui/globals.css";
 import {
   SidebarInset,
   SidebarProvider,
