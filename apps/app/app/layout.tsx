@@ -15,7 +15,7 @@ import {
   BreadcrumbPage,
 } from "@repo/ui/components/breadcrumb";
 import { Separator } from "@repo/ui/components/separator";
-import { AppSidebar } from "./components/app-sidebar";
+import { AppSidebar } from "./components/sidebar/app-sidebar";
 
 const fontSans = Geist({
   subsets: ["latin"],

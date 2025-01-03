@@ -74,7 +74,6 @@
     "./tailwind.config": "./tailwind.config.ts",
     "./lib/*": "./src/lib/*.ts",
     "./components/*": "./src/components/*.tsx",
-    "./hooks/*": "./src/hooks/*.ts",
-    "./providers/*": "./src/providers/*.tsx"
+    "./hooks/*": "./src/hooks/*.ts"
   }
 }
