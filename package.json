@@ -13,7 +13,7 @@
     "typescript": "^5"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=22"
   },
   "packageManager": "bun@1.1.42",
   "workspaces": [
