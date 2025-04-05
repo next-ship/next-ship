@@ -1,6 +1,7 @@
 import Image, { type ImageProps } from "next/image";
 import styles from "./page.module.css";
 import { Button } from "@repo/ui/components/button";
+import { Calendar } from "@repo/ui/components/calendar";
 
 type Props = Omit<ImageProps, "src"> & {
   srcLight: string;
@@ -64,6 +65,11 @@ export default function Home() {
           </a>
         </div>
         <Button className={styles.secondary}>Open alert</Button>
+        <Calendar
+      mode="single"
+      selected={new Date()}
+      className="rounded-md border shadow"
+    />
       </main>
       <footer className={styles.footer}>
         <a
